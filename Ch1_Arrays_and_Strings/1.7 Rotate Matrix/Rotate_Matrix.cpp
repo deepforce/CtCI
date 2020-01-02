@@ -9,6 +9,9 @@ using namespace std;
  * Approach 2: As mentioned in the book, rotating invididual elements layer by layer.
  * 			   I have solved it perform anticlockwise 90' rotation, it can be done similarly for clockwise rotatation.
  */
+// Analysis
+// Time: O(N^2)
+// Space: O(1)
 
 void helper_transpose(int **matrix, int N) {
     for (int i = 0; i < N; i++)
