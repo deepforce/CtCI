@@ -89,6 +89,9 @@ bool isPermutationOfPalindrome2( const string & str ) {
  * permutation.
  *
  */
+// Analysis
+// Time: O(N)
+// Space: O(1)
 bool isPermutationOfPalindrome3(const string str)
 {
     bitset<27> bitVector;
